@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="./assets/css/normalize.css" />
+		<link rel="stylesheet" href="./assets/css/style.css" />
+		<title>Document</title>
+	</head>
+	<body>
+		<nav>
+			<div class="nav_bar">
+				<a href="index.html">Quita y Pon</a>
+				<a href="2.stikers.html">Calculadora de Productos</a>
+				<a href="3.password.html">Validador de Contraseñas</a>
+			</div>
+		</nav>
+
+		<!-- EJERCICIO #2 -->
+		<section class="container_section2">
+			<h4>Te regalamos en TOTAL 10 meses PREMIUN en tus programas ADOBE.</h4>
+			<div class="container_programs">
+				<div class="box_adobe">
+					<img src="./assets/imgs/icons8-adobe-illustrator-144.svg" alt="ilustrator" />
+					<input class="ilustrator" type="number" placeholder="Cantidad" min="0" max="10"/>
+				</div>
+				<div class="box_adobe">
+					<img src="./assets/imgs/icons8-adobe-premiere-pro-144.svg" alt="premier" />
+					<input class="premier" type="number" placeholder="Cantidad"  min="0" max="10"/>
+				</div>
+				<div class="box_adobe">
+					<img src="./assets/imgs/icons8-photoshop-144.svg" alt="photoshop" />
+					<input class="photoshop" type="number" placeholder="Cantidad" min="0" max="10"/>
+				</div>
+			</div>
+			<div class="result">
+				<p><span class="mesage"></span></p>
+				<button onclick="validar()" type="button">Validar</button>
+			</div>
+		</section>
+
+		<script src="./assets/js/main.js"></script>
+	</body>
+</html>
